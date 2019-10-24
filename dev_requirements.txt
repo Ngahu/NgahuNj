@@ -1,0 +1,6 @@
+--requirement=requirements.txt
+django-debug-toolbar
+flake8
+pytest
+isort
+django-extensions

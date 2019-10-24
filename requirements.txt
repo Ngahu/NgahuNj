@@ -1,0 +1,8 @@
+Django==2.2.6
+python-decouple
+django-cors-headers
+django-tinymce4-lite
+djangorestframework
+psycopg2
+django-crispy-forms
+Pillow
