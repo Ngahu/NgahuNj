@@ -1,0 +1,1 @@
+Personal blog built with Django
