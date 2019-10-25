@@ -1,0 +1,29 @@
+{% load staticfiles %}
+{% block content %}
+
+<div class="header-intro theme-bg-primary text-white py-5">
+	        <div class="container">
+		        <div class="profile-teaser media flex-column flex-md-row">
+				    <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src={% static "images/me.jpg" %} alt="">
+					<div class="media-body text-center text-md-left">
+					<div class="lead">About</div>
+					<h2 class="mt-0 display-4 font-weight-bold">Ngahu Joel</h2>
+					<div class="bio mb-3">  
+					
+ Joel Ngahu is an end to end product developer who takes a wide view of the whole system and focuses on building products that benefit both the organization and the customer. 
+
+ <br/><br/><br/>
+
+Joel inherently understands that the customer is the single most valuable asset of an organization and is thus driven to create the best user-experience. He is currently a  Software Developer at E-limu. Here is where he writes about ideas longer than 280 characters. 
+When not coding, he is traveling, planning for the next adventure and trying very hard not to be the worst player on the football pitch.
+					</div><!--//bio-->
+					<a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="{% url 'main_app:contact_page' %}">Hire Me</a>
+					
+					</div><!--//media-body-->
+				</div><!--//profile-teaser-->
+		        
+	        </div><!--//container-->
+        </div><!--//header-intro-->
+        
+
+{% endblock content %}

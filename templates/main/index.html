@@ -1,0 +1,22 @@
+{% extends 'main/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+{% include "main/header.html" %}
+{% include "main/header_into.html" %}
+
+{% include "main/skills.html" %}
+
+{% comment %} {% include "home/testimony.html" %} {% endcomment %}
+
+
+{% include "main/featured_projects.html" %}
+
+{% comment %} {% include "home/latest_blog_posts.html" %} {% endcomment %}
+
+{% comment %} {% include "home/featured.html" %} {% endcomment %}
+
+{% include "home/footer.html" %}
+
+  {% endblock content %} 

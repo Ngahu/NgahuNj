@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     # internal apps
     'accounts',
     'projects',
+    'main_app',
 
     'tinymce',
     'debug_toolbar',

@@ -1,0 +1,26 @@
+{% load staticfiles %}
+
+
+
+{% block content %}
+
+<section class="section-cta py-5 bg-primary text-white">
+		<div class="container">
+			<div class="text-center">
+			    <img class="profile-small d-inline-block mx-auto rounded-circle mb-2" src={% static "images/me.jpg" %} alt="">
+		    </div>
+		    <h3 class="section-title font-weight-bold text-center mb-2">Interested in hiring me for your project?</h3>
+		    <div class="section-intro mx-auto text-center mb-3">
+			    Looking for an experienced full-stack developer to build your web app or ship your software product? To start an initial chat, just drop me an email at <a class="link-on-bg" href="#">ngangangahu@gmail.com</a> or call me <a class="link-on-bg" href="#"> +254 725 743 069 </a>.
+		    </div>
+		    <div class="text-center">
+		        <a class="theme-btn-on-bg btn" href="{% url 'main_app:contact_page' %}">Let's Talk</a>
+		    </div>
+		</div><!--//container-->
+	</section>
+    
+    <footer class="footer text-light text-center py-2">
+	    <small class="copyright">Copyright &copy; 2019 <a class="text-light" href="#" target="_blank">Ngahu Ng'ang'a</a></small>
+    </footer>
+
+{% endblock content %}
