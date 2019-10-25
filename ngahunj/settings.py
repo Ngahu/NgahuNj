@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'projects',
     'main_app',
 
-    'tinymce',
+    # 'tinymce',
     'debug_toolbar',
 
     'rest_framework',
@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'crispy_forms',
 
 ]
+
+TINYMCE_SPELLCHECKER = False
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
