@@ -33,8 +33,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    ##internal apps
+    # internal apps
     'accounts',
+    'projects',
 
     'tinymce',
     'debug_toolbar',
